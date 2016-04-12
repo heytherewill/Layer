@@ -1,0 +1,26 @@
+<metadata>
+	<attr path="/api/package[@name='com.layer.sdk.exceptions']/class[@name='LayerException']/method[@name='getType' and count(parameter)=0]" name="name">GetLayerExceptionType</attr>
+	<!-- Class LayerClient.Options.HistoricSyncPolicy -->
+	<!-- Method NewInstance(android.content.Context context, java.lang.String p1) -->
+	<attr path="/api/package[@name='com.layer.sdk']/class[@name='LayerClient']/method[@name='newInstance' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+	<!-- Method NewInstance(android.content.Context context, java.lang.String p1, com.layer.sdk.LayerClient.Options p2) -->
+	<attr path="/api/package[@name='com.layer.sdk']/class[@name='LayerClient']/method[@name='newInstance' and count(parameter)=3 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='com.layer.sdk.LayerClient.Options']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+	<!-- Method SetLoggingEnabled(android.content.Context context, boolean p1) -->
+	<attr path="/api/package[@name='com.layer.sdk']/class[@name='LayerClient']/method[@name='setLoggingEnabled' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='boolean']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+	<!-- Class LayerReceiver.ServiceEvent.Type -->
+	<!-- Method IsNetworkConnected(android.content.Context context) -->
+	<attr path="/api/package[@name='com.layer.sdk.services']/class[@name='LayerReceiver']/method[@name='isNetworkConnected' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+	<!-- Method OnReceive(android.content.Context context, android.content.Intent p1) -->
+	<attr path="/api/package[@name='com.layer.sdk.services']/class[@name='LayerReceiver']/method[@name='onReceive' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]/parameter[@name='p0' and @type='android.content.Context']" name="name">context</attr>
+
+  <attr path="/api/package[@name='com.layer.sdk.services']/class[@name='LayerReceiver']/method[@name='getType' and count(parameter)=0]" name="name"> GetLayerReceiverType </attr>
+  <attr path="/api/package[@name='com.layer.sdk.query']/class[@name='CompoundPredicate']/method[@name='getType' and count(parameter)=0]" name="name"> GetCompoundPredicateType </attr>
+  <attr path="/api/package[@name='com.layer.sdk.services']/class[@name='LayerReceiver.ServiceEvent']/method[@name='getType' and count(parameter)=0]" name="name"> GetLayerReceiverServiceEventType </attr>
+  <attr path="/api/package[@name='com.layer.transport.thrift.sync']/class[@name='Event']/method[@name='e' and count(parameter)=0]" name="name"> TypeE </attr>
+  <attr path="/api/package[@name='com.layer.transport.thrift.sync']/class[@name='Event']/method[@name='f' and count(parameter)=0]" name="name"> TypeF </attr>
+  <attr path="/api/package[@name='com.layer.transport.thrift.sync']/class[@name='Event']/method[@name='g' and count(parameter)=0]" name="name"> TypeG </attr>
+  <attr path="/api/package[@name='com.layer.transport.thrift.sync']/class[@name='Event']/method[@name='h' and count(parameter)=0]" name="name"> TypeH </attr>
+
+  <attr path="/api/package[@name='com.layer.sdk.messaging']/class[@name='Metadata.Entry']/method[@name='getKey' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  
+</metadata>
